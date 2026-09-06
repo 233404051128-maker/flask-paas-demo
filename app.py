@@ -14,7 +14,7 @@ def home():
     </style></head><body>
     <h1>Ung dung Flask tren PaaS</h1>
     <div class="box">
-    <p><b>Sinh vien:</b> NGO TRAN YEN VI – 233404051128</p>
+    <p><b>Sinh vien:</b> NGO TRAN YEN VI (v2)– 233404051128</p>
     <p><b>Mon hoc:</b> Dien toan Dam may</p>
     <p><b>Mo hinh:</b> PaaS – Platform as a Service</p>
     <p><b>Python:</b> {platform.python_version()}</p>
