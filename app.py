@@ -18,7 +18,7 @@ def counter():
 
 @app.route("/api/info")
 def info():
-    ten_sinh_vien = os.environ.get("STUDENT_NAME", "Chua dat bien moi truong")
+    ten_sinh_vien = os.environ.get("STUDENT_NAME", "NGO TRAN YEN VI")
     return {
         "sinh_vien": ten_sinh_vien,
         "nguon_du_lieu": "Environment Variable tren Render, KHONG hardcode trong code"
